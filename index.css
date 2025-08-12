@@ -178,3 +178,25 @@ body{
     color: white;
 }
 
+.direkt{
+    margin: 30px;
+}
+.direkt h1{
+    font-family:"poppins" ;
+} 
+
+p{
+    font-family: "poppins";
+    font-size: 16px;
+}
+.more{
+    margin: 30px;
+    line-height: 0.7;
+}
+
+.footer{
+    margin: 40px;
+}
+.img{
+    margin-left: 45px;
+}
