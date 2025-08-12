@@ -53,4 +53,34 @@ body{
 }
 .booking img{
     width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+
+.find-accomodations{
+   margin: 20px;
+}
+.accomodations{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    gap:2rem;
+}
+.accomodations img{
+    width: 200px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.info-card{
+  display: grid;
+  grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+  margin: 20px;
+  gap: 15px;
+}
+
+.card-info img{
+    width: 250px;
+    height: 200px;
+    border-radius: 16px;
+}
+
