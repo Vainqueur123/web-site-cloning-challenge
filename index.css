@@ -1,28 +1,70 @@
 body{
     margin: 0;
     padding: 0;
-     box-sizing: border-box; 
+    box-sizing: border-box; 
     width: 100%;
     height: auto;
 }
-.header{
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+.header div{
     display: flex;
     align-items: center;
     padding: 10px;
     gap: 2rem;
 }
+
 .main-content{
   background-image: url(images/welPic.jpeg);
   width: 100%;
   height: 500px;
+  opacity: 1;
 }
+
+.main-content h1{
+    margin-left: 100px;
+    color: white;
+    font-family: "poppins";
+}
+
+.main-content div{
+    position: absolute;
+    top: 200px;
+    font-family: "poppins";
+}
+
+
 .form-input{
+    height: 40px;
     background-color: white;
     padding: 40px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 16px;
+    padding: 20px;
+   
 }
+
+.form-input button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    border: none;
+}
+
+.input{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
 .sms{
     height: 40px;
     display: flex;
@@ -47,14 +89,16 @@ body{
 }
 .booking{
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
   width: 100%;
   margin: 20px;
+  gap: 20px;
 }
 .booking img{
-    width: 300px;
+    width: 200px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-left: 188px;
 }
 
 .find-accomodations{
@@ -79,8 +123,58 @@ body{
 }
 
 .card-info img{
-    width: 250px;
+    width: 280px;
     height: 200px;
     border-radius: 16px;
+}
+.Browser{
+    margin-left: 20px;
+}
+
+.beach{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 20px;
+}
+.beach img{
+    width: 580px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.private{
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+.pri-img img{
+    width: 230px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.sauna{
+    background-image: url(images/sauna.jpeg);
+    height: 350px;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.sauna-div{
+   width: 350px;
+   height: 300px;
+   background-color: white;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+.sauna-div button{
+    border: none;
+    background-color: rgb(47, 47, 247);
+    height: 40px;
+    border-radius: 16px;
+    color: white;
 }
 
